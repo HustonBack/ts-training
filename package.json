@@ -11,8 +11,20 @@
   "license": "ISC",
   "dependencies": {
     "@types/lodash": "^4.14.123",
-    "@types/node": "^11.13.4",
+    "@types/node": "^11.13.5",
+    "@types/request": "^2.48.1",
+    "@types/request-promise-native": "^1.0.15",
     "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
     "typescript": "^3.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaryaAlym/ts-training.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaryaAlym/ts-training/issues"
+  },
+  "homepage": "https://github.com/DaryaAlym/ts-training#readme"
 }
