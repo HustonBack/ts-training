@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "inlineSources": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "typeRoots": [ "node_modules/@types" ],
+    "outDir": "./built",
+    "experimentalDecorators": true
+  },
+  "files": [
+    "typings.d.ts"
+  ]
+}
