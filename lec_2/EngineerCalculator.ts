@@ -1,10 +1,13 @@
-import {Calculator} from "./Calculator";
+import BaseClass, {MAX_INT} from "./Calculator";
 
-export class EngineerCalculator extends Calculator{
 
-    public add(a: number, b: number): number {
-        // const sum = super.add(a, b);
-        return Math.floor(a + b);
+export class EngineerCalculator extends BaseClass{
+
+    private ght: number;
+
+    constructor(name: number, ght: number) {
+        super(name.toString());
+        this.ght = ght;
     }
 
 }

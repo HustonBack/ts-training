@@ -1,4 +1,9 @@
 export class Calculator {
+    private name: string;
+
+    constructor(name: string) {
+        this.name = name;
+    }
 
     public add(a: number, b: number): number {
         const sum = a + b;
@@ -10,3 +15,8 @@ export class Calculator {
         console.log(text);
     }
 }
+
+export const MAX_INT = 100000000000;
+
+
+// { Calculator, MAX_INT }

@@ -1,4 +1,4 @@
-import {ICalculator} from "./ICalculator";
+import { ICalculator } from "./ICalculator";
 
 export class AnotherCalculator implements ICalculator{
 
